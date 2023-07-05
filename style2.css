@@ -1,0 +1,222 @@
+*{
+	margin: 0px;
+	padding:0px;
+	}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {
+  display: block; 
+} 
+header p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.075px;
+  margin-top: -0.5px;
+  text-transform: uppercase;
+}
+header.major > :last-child {
+  border-bottom: solid 3px #72b446;
+  display: inline-block;
+}
+header.main > :last-child {
+  margin: 0 0 1px 0;
+ }
+#header {
+  display: flex;
+  border-bottom: solid 5px #72b446;
+  padding: 15px 0 15px 0;
+  position: relative; 
+}
+#header > * {
+	-moz-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-bottom: 0;
+ }
+#header li{
+	float: right;
+	margin-right:30px;
+}
+#header a{
+	color: #474747;
+}
+#header a:hover{
+	color: #09965e
+}
+#header .logo {
+	border-bottom: 0;
+	color: inherit;
+	font-size: 1.125em;
+	margin-left: 30px;
+}
+#header .icons {
+	text-align: right; 
+}
+.icons a:hover{
+	border: #7090c1 1px solid;
+}
+section,#menu{
+	width: 1100px;
+	margin: auto;
+	background-color: white;
+	padding-top: 80px;
+}
+section a{
+	color:#474747 ;
+}
+.major h2{
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+.major{
+	text-align: center;
+}
+.features h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}	
+.posts{
+	width: 1300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.posts p{
+	font-size: 14px;
+	color: #474747;
+	width: 350px;
+	line-height: 24px;
+	padding-left: 10px;
+}
+.posts img{
+	padding: 10px;
+}
+.posts h3{
+	padding: 10px 10px;
+}
+.posts .button{
+	margin: 24px 10px;
+	border-radius: 8px;
+	background-color: #72b446;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 16px;
+	border: #72b446;
+}
+.posts  a{
+	color: white;
+}
+.posts .button:hover{
+	background-color: #ebebeb;
+	
+}	   
+.posts a:hover{
+	color: #72b446;
+}
+.posts article{
+	border: solid 1px gainsboro;
+	margin: 5px;
+}
+.posts img{
+	width: 350px;
+}
+#banner{display: flex;
+	width: 1100px;
+	margin: auto;
+	color: white;
+	height: 512px;
+}
+#banner div{
+	width: 600px;
+	background:#72b446;
+}
+#banner img{
+	width: 700px;
+	height: 512px;}
+#banner  h1{
+	font-weight: 600;
+	padding-left: 30px;
+	padding-top: 66px;
+}
+#banner p{
+	width: 400px;
+	padding: 30px 30px;
+	font-size: 16px;
+	line-height: 30px;
+}
+#banner .button{
+	margin:0px 120px;
+	border-radius: 8px;
+	background-color: white;
+	padding: 20px 10px;
+	text-align: center;
+	font-size: 16px;
+	border: #2f4261;
+}
+#banner .button a{
+	color:#72b446;
+}
+#banner .button:hover{
+	background-color:  #f9f6f2;
+	border: #f9f6f2;
+}	  
+#search input{
+	width: 25%;
+	margin-left: 30px;
+	height: 40px;
+	border:solid 3px #72b446;
+	border-radius: 5px;
+}
+#menu ul{
+	padding: 20px;
+}
+#menu li{
+	float: left;
+}
+#menu ul a{
+	color: white;
+	display: block;
+	padding: 20px;
+	background-color: #72b446;
+	margin-left: 180px;
+}
+#menu a:hover{
+	background-color: rgb(21, 100, 9);
+ }
+.contact li {
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+	
+footer{
+	background:#72b446;
+	color: white;
+	height: 100px;
+	font-size: 13px;
+	margin-top: 80px;
+}
+footer p{
+	width: 490px;
+	margin: auto;
+	line-height: 100px;
+	display: flex;
+	flex-direction: row;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+		color: orange
+}	
