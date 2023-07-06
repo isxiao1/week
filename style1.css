@@ -1,4 +1,4 @@
-			*{
+*{
 				margin: 0px;
 				padding: 0px;
 			}
@@ -38,13 +38,16 @@
 				margin-right:30px;
 				border: #7090c1 2px solid;
 				border-radius: 5px;
-				padding: 20px;
 			}
 			#header a{
 				color: #474747;
+				padding: 20px;
 			}
 			#header a:hover{
-				color: #7090c1
+				color: #7090c1;
+			}
+			.icons a:hover{
+				background-color: #ebebeb;
 			}
 			#header .logo {
 			    border-bottom: 0;
@@ -101,6 +104,15 @@
 				text-align: center;
 				font-size: 36px;
 				margin-bottom: 15px;
+			}
+			.features{
+				display: flex;
+				flex-direction: row;
+			}
+			.features div{
+				border: #7090c1 1px solid;
+				margin: 10px;
+				padding: 10px;
 			}
 			.features h3{
 				text-align: center;
